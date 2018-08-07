@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.4.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
