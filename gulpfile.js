@@ -11,7 +11,7 @@ const path = require("path");
 
 let { src, dest, json } = options;
 if (!lodash.isEmpty(json)) {
-  const config = require(json);
+  const config = require(path.resolve(json));
   src = config.src;
   dest = config.dest;
 }

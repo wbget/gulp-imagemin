@@ -12,6 +12,9 @@
   "engines": {
     "node": ">=8.9.0"
   },
+  "scripts": {
+    "start": "gulp --json='path.json'"
+  },
   "bin": {
     "imageMin": "./bin/index.js"
   }
