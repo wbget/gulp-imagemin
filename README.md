@@ -15,7 +15,7 @@ npm install
 1.  命令路径
 
 ```
-gulp --src='./image' --des='./dest/'
+gulp --src='./image' --dest='./dest/'
 ```
 
 2.  配置路径
