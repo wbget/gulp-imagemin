@@ -1,4 +1,4 @@
 {
-    "src": "./image",
-    "dest": "./dest/"
+  "src": "./image",
+  "dest": "./image/"
 }

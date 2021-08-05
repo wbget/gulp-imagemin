@@ -13,9 +13,16 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "gulp --json='path.json'"
+    "start": "gulp --json='path.json'",
+    "web": "gulp --json='web.json'",
+    "jsb": "gulp --json='native.json'"
   },
   "bin": {
     "imageMin": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-egg": "^9.0.0",
+    "prettier": "2.3.2"
   }
 }
